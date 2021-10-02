@@ -12,24 +12,12 @@ const UserSignUpFrom = () => {
       } = useForm()
 
       async function handleSignup(userInfo) {
-        // setLoading(true)
-        // try {
-        //   if (donatedBefore)
-        //     userInfo.lastDonationDate = donationDate.lastDonationDate
-        //   if(doctor)
-        //     userInfo.role = "doctor"
-    
-        //   const { data } = await signUp(userInfo)
-        //   if (!data.user) {
-        //     useErrorToast(data.message)
-        //     return setLoading(false)
-        //   }
-        //   localStorage.setItem("profile", JSON.stringify(data))
-        //   return setCurrentUser(data.user)
-        // } catch (err) {
-        //   useErrorToast(err.message)
-        //   return setLoading(false)
-        // }
+        setLoading(true)
+        try {
+
+        } catch (err) {
+
+        }
       }
 
     return (
